@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Border Form Fields</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="form_container">
+        <h2>Get In Touch</h2>
+        <div class="address">
+            <div class="input_group">
+                <label for="input">ADRESSE</label>
+                <input type="text" placeholder="ADRESSE" class="form_control" required>
+            </div>
+            <div class="input_group">
+                <label for="input">POSTLEITZAHL/STAD</label>
+                <input type="text" placeholder="ADRESSE" class="form_control" required>
+            </div>
+        </div>
+        <div class="textarea_section">
+            <label for="textarea">DEINE NACHRIGHT</label>
+            <textarea placeholder="Text Area" class="form-control"></textarea>
+        </div>
+        <div class="checkbox_box">
+            <input type="checkbox" class="custom-checkbox" id="checkbox">
+            <label for="checkbox">Mit dem Absenden stimmst du zu, dass die gesendeten Daten für die Bearbeitung deiner
+                Anfrage verwendet werden. Es gelten unsere Datenschutzbestimmung. </label>
+        </div>
+
+        <!-- I'm not a robot CAPTCHA-style section -->
+        <div class="captcha_box">
+            <input type="checkbox" id="robot_check">
+            <label for="robot_check" class="captcha_label">Ich bin kein Roboter. <i class="fas fa-sync-alt captcha_icon"></i></label>
+        </div>
+        <button type="submit" class="btn">Absenden</button>
+    </div>
+
+</body>
+
+</html>
